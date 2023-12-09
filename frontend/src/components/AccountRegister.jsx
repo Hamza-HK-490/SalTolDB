@@ -155,7 +155,7 @@ const navigate =useNavigate();
             <Link
               type="submit"
               onClick={handleRegister}
-              className="block w-full text-center py-3 rounded bg-[#A4A890] font-bold tracking-tight leading-tight text-white hover:bg-green-700 focus:outline-none my-1"
+              className="block w-full text-center py-3 rounded bg-[#A4A890] font-bold tracking-tight leading-tight text-white hover:bg-blue-700 focus:outline-none my-1"
             >
               Create Account
             </Link>
