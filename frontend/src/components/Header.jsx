@@ -14,7 +14,7 @@ function Header() {
 
           <img src=".././public/logo.png" alt="Logo" className="h-12 mr-2" />
          
-          <h1  className="text-[#333333] font-semibold text-2xl  tracking-tight leading-tight mt-2" >HeatGen</h1>
+          <h1  className="text-[#333333] font-semibold text-2xl  tracking-tight leading-tight mt-2" >SalTolDB</h1>
           </Link>
          
         <Link  className="text-[#333333] font-semibold text-xl  tracking-tight leading-tight  ml-8" to="/geneForm" >Add</Link>

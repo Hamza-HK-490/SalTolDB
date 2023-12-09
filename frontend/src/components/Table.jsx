@@ -26,42 +26,38 @@ const Table = () => {
         <thead className="bg-gray-50">
           <tr>
             <th className="px-2 py-3 text-center text-xs font-medium text-gray-500 uppercase tracking-wider">
-              sr_no
+              id
             </th>
-            <th className="py-3 text-center text-xs font-medium text-gray-500 uppercase tracking-wider">
-              title
+            
+            <th className="px-2 py-3 text-center text-xs font-medium text-gray-500 uppercase tracking-wider">
+              Botanical Name
             </th>
             <th className="px-2 py-3 text-center text-xs font-medium text-gray-500 uppercase tracking-wider">
-              botanical_name
+              Common Name
             </th>
             <th className="px-2 py-3 text-center text-xs font-medium text-gray-500 uppercase tracking-wider">
-              common_name
+              Gene Name
             </th>
             <th className="px-2 py-3 text-center text-xs font-medium text-gray-500 uppercase tracking-wider">
-              gene_name
+              Gene Family
             </th>
             <th className="px-2 py-3 text-center text-xs font-medium text-gray-500 uppercase tracking-wider">
-              gene_family
-            </th>
-            <th className="px-2 py-3 text-center text-xs font-medium text-gray-500 uppercase tracking-wider">
-              reference
+              Reference
             </th>
           </tr>
         </thead>
         <tbody className="bg-white divide-y divide-gray-200">
           {data.map(item => (
-            <tr key={item.sr_no}>
+            <tr key={item.id}>
               <td className="py-2 text-center whitespace-nowrap">
-                {item.sr_no}
+                {item.id}
               </td>
-              <td className=" px-2 text-center py-4 ">
-                {item.title}
-              </td>
+              
               <td className="px-2 text-center py-4 whitespace-nowrap">
                 {item.botanical_name}
               </td>
               <td className="px-2 py-4 text-center whitespace-nowrap">
-                {item.common_name}
+                {item.comman_name}
               </td>
               <td className="px-2 py-4 text-center whitespace-nowrap">
                 {item.gene_name}
